@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install --prefix aspect_web",
+  "buildCommand": "npm run build --prefix aspect_web",
+  "outputDirectory": "aspect_web/.next"
+}

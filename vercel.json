@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "npm install --prefix aspect_web",
-  "buildCommand": "npm run build --prefix aspect_web",
+  "framework": "nextjs",
+  "installCommand": "cd aspect_web && npm install",
+  "buildCommand": "cd aspect_web && npm run build",
   "outputDirectory": "aspect_web/.next"
 }
